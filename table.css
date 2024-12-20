@@ -1,0 +1,23 @@
+thead {
+	background-color: #f0f0f0;
+}
+
+table {
+	width: 95%;
+	margin: 10px;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+tbody {
+	text-align: center; 
+}
+
+tfoot {
+    font-weight: bold;  
+    text-align: center; 
+}
