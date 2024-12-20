@@ -6,7 +6,7 @@ function calculateAverages() {
     let english = parseFloat(document.getElementById("english").value);
     document.getElementById("math").value = "";
     document.getElementById("english").value = "";
-    if (!math || !english) {
+    if (isNaN(math) || isNaN(english)) {
         alert("只能輸入數字");
         return;
     }
